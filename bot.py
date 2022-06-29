@@ -18,8 +18,8 @@ client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 async def start(event):
   await event.reply("__**Saya Adalah MentionAll Bot**, Saya Dapat Membantu Anda Mention Semua Member 👻\nClick **/help** Untuk Infromasi Lebih Lanjut__\n\n Maintaned By @fckualot",
                     buttons=(
-                      [Button.url('📣 Channel', 'https://t.me/RioProjects'),
-                      Button.url('📦 Group', 'https://t.me/RioGroupSupport')]
+                      [Button.url('📣 Channel', 'https://t.me/kl29royalofficial'),
+                      Button.url('♊ Group', 'https://t.me/KL29SCRIPTDISCUSS')]
                     ),
                     link_preview=False
                    )
@@ -28,8 +28,8 @@ async def help(event):
   helptext = "**Help Menu of MentionAllBot**\n\nCommand: /mentionall\n__You can use this command with text what you want to mention others.__\n`Example: /mentionall Good Morning!`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\nFollow [Rio](https://github.com/RioPROJECTX) on Github"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('📣 Channel', 'https://t.me/RioProjects'),
-                      Button.url('📦 Group', 'https://t.me/RioGroupSupport')]
+                      [Button.url('📣 Channel', 'https://t.me/kl29royalofficial'),
+                      Button.url('♊ Group', 'https://t.me/KL29SCRIPTDISCUSS')]
                     ),
                     link_preview=False
                    )
